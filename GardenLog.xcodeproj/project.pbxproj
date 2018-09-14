@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902793E9214BEE2E000B9824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902793E8214BEE2E000B9824 /* AppDelegate.swift */; };
+		902793EB214BEE2E000B9824 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902793EA214BEE2E000B9824 /* MasterViewController.swift */; };
+		902793ED214BEE2E000B9824 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902793EC214BEE2E000B9824 /* DetailViewController.swift */; };
+		902793F0214BEE2E000B9824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902793EE214BEE2E000B9824 /* Main.storyboard */; };
+		902793F2214BEEA1000B9824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902793F1214BEEA1000B9824 /* Assets.xcassets */; };
+		902793F5214BEEA1000B9824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902793F3214BEEA1000B9824 /* LaunchScreen.storyboard */; };
+		90279400214BEEA4000B9824 /* GardenLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902793FF214BEEA4000B9824 /* GardenLogTests.swift */; };
+		9027940B214BEEA5000B9824 /* GardenLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9027940A214BEEA5000B9824 /* GardenLogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902793FC214BEEA4000B9824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902793DD214BEE2D000B9824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902793E4214BEE2E000B9824;
+			remoteInfo = GardenLog;
+		};
+		90279407214BEEA5000B9824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902793DD214BEE2D000B9824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902793E4214BEE2E000B9824;
+			remoteInfo = GardenLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		902793E5214BEE2E000B9824 /* GardenLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902793E8214BEE2E000B9824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		902793EA214BEE2E000B9824 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		902793EC214BEE2E000B9824 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		902793EF214BEE2E000B9824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		902793F1214BEEA1000B9824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902793F4214BEEA1000B9824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		902793F6214BEEA1000B9824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		902793FB214BEEA4000B9824 /* GardenLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902793FF214BEEA4000B9824 /* GardenLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenLogTests.swift; sourceTree = "<group>"; };
+		90279401214BEEA4000B9824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90279406214BEEA5000B9824 /* GardenLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GardenLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9027940A214BEEA5000B9824 /* GardenLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenLogUITests.swift; sourceTree = "<group>"; };
+		9027940C214BEEA6000B9824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902793E2214BEE2E000B9824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902793F8214BEEA4000B9824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90279403214BEEA5000B9824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902793DC214BEE2D000B9824 = {
+			isa = PBXGroup;
+			children = (
+				902793E7214BEE2E000B9824 /* GardenLog */,
+				902793FE214BEEA4000B9824 /* GardenLogTests */,
+				90279409214BEEA5000B9824 /* GardenLogUITests */,
+				902793E6214BEE2E000B9824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902793E6214BEE2E000B9824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902793E5214BEE2E000B9824 /* GardenLog.app */,
+				902793FB214BEEA4000B9824 /* GardenLogTests.xctest */,
+				90279406214BEEA5000B9824 /* GardenLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902793E7214BEE2E000B9824 /* GardenLog */ = {
+			isa = PBXGroup;
+			children = (
+				902793E8214BEE2E000B9824 /* AppDelegate.swift */,
+				902793EA214BEE2E000B9824 /* MasterViewController.swift */,
+				902793EC214BEE2E000B9824 /* DetailViewController.swift */,
+				902793EE214BEE2E000B9824 /* Main.storyboard */,
+				902793F1214BEEA1000B9824 /* Assets.xcassets */,
+				902793F3214BEEA1000B9824 /* LaunchScreen.storyboard */,
+				902793F6214BEEA1000B9824 /* Info.plist */,
+			);
+			path = GardenLog;
+			sourceTree = "<group>";
+		};
+		902793FE214BEEA4000B9824 /* GardenLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				902793FF214BEEA4000B9824 /* GardenLogTests.swift */,
+				90279401214BEEA4000B9824 /* Info.plist */,
+			);
+			path = GardenLogTests;
+			sourceTree = "<group>";
+		};
+		90279409214BEEA5000B9824 /* GardenLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9027940A214BEEA5000B9824 /* GardenLogUITests.swift */,
+				9027940C214BEEA6000B9824 /* Info.plist */,
+			);
+			path = GardenLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902793E4214BEE2E000B9824 /* GardenLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9027940F214BEEA6000B9824 /* Build configuration list for PBXNativeTarget "GardenLog" */;
+			buildPhases = (
+				902793E1214BEE2E000B9824 /* Sources */,
+				902793E2214BEE2E000B9824 /* Frameworks */,
+				902793E3214BEE2E000B9824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenLog;
+			productName = GardenLog;
+			productReference = 902793E5214BEE2E000B9824 /* GardenLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902793FA214BEEA4000B9824 /* GardenLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90279412214BEEA6000B9824 /* Build configuration list for PBXNativeTarget "GardenLogTests" */;
+			buildPhases = (
+				902793F7214BEEA4000B9824 /* Sources */,
+				902793F8214BEEA4000B9824 /* Frameworks */,
+				902793F9214BEEA4000B9824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902793FD214BEEA4000B9824 /* PBXTargetDependency */,
+			);
+			name = GardenLogTests;
+			productName = GardenLogTests;
+			productReference = 902793FB214BEEA4000B9824 /* GardenLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90279405214BEEA5000B9824 /* GardenLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90279415214BEEA6000B9824 /* Build configuration list for PBXNativeTarget "GardenLogUITests" */;
+			buildPhases = (
+				90279402214BEEA5000B9824 /* Sources */,
+				90279403214BEEA5000B9824 /* Frameworks */,
+				90279404214BEEA5000B9824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90279408214BEEA5000B9824 /* PBXTargetDependency */,
+			);
+			name = GardenLogUITests;
+			productName = GardenLogUITests;
+			productReference = 90279406214BEEA5000B9824 /* GardenLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902793DD214BEE2D000B9824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rachel Nichol";
+				TargetAttributes = {
+					902793E4214BEE2E000B9824 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					902793FA214BEEA4000B9824 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 902793E4214BEE2E000B9824;
+					};
+					90279405214BEEA5000B9824 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 902793E4214BEE2E000B9824;
+					};
+				};
+			};
+			buildConfigurationList = 902793E0214BEE2D000B9824 /* Build configuration list for PBXProject "GardenLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902793DC214BEE2D000B9824;
+			productRefGroup = 902793E6214BEE2E000B9824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902793E4214BEE2E000B9824 /* GardenLog */,
+				902793FA214BEEA4000B9824 /* GardenLogTests */,
+				90279405214BEEA5000B9824 /* GardenLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902793E3214BEE2E000B9824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902793F5214BEEA1000B9824 /* LaunchScreen.storyboard in Resources */,
+				902793F2214BEEA1000B9824 /* Assets.xcassets in Resources */,
+				902793F0214BEE2E000B9824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902793F9214BEEA4000B9824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90279404214BEEA5000B9824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902793E1214BEE2E000B9824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902793ED214BEE2E000B9824 /* DetailViewController.swift in Sources */,
+				902793EB214BEE2E000B9824 /* MasterViewController.swift in Sources */,
+				902793E9214BEE2E000B9824 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902793F7214BEEA4000B9824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90279400214BEEA4000B9824 /* GardenLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90279402214BEEA5000B9824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9027940B214BEEA5000B9824 /* GardenLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902793FD214BEEA4000B9824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902793E4214BEE2E000B9824 /* GardenLog */;
+			targetProxy = 902793FC214BEEA4000B9824 /* PBXContainerItemProxy */;
+		};
+		90279408214BEEA5000B9824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902793E4214BEE2E000B9824 /* GardenLog */;
+			targetProxy = 90279407214BEEA5000B9824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		902793EE214BEE2E000B9824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902793EF214BEE2E000B9824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		902793F3214BEEA1000B9824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902793F4214BEEA1000B9824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9027940D214BEEA6000B9824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9027940E214BEEA6000B9824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90279410214BEEA6000B9824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GardenLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroovyGarden.GardenLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90279411214BEEA6000B9824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GardenLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroovyGarden.GardenLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90279413214BEEA6000B9824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GardenLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroovyGarden.GardenLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenLog.app/GardenLog";
+			};
+			name = Debug;
+		};
+		90279414214BEEA6000B9824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GardenLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroovyGarden.GardenLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GardenLog.app/GardenLog";
+			};
+			name = Release;
+		};
+		90279416214BEEA6000B9824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GardenLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroovyGarden.GardenLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenLog;
+			};
+			name = Debug;
+		};
+		90279417214BEEA6000B9824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GardenLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GroovyGarden.GardenLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GardenLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902793E0214BEE2D000B9824 /* Build configuration list for PBXProject "GardenLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9027940D214BEEA6000B9824 /* Debug */,
+				9027940E214BEEA6000B9824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9027940F214BEEA6000B9824 /* Build configuration list for PBXNativeTarget "GardenLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90279410214BEEA6000B9824 /* Debug */,
+				90279411214BEEA6000B9824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90279412214BEEA6000B9824 /* Build configuration list for PBXNativeTarget "GardenLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90279413214BEEA6000B9824 /* Debug */,
+				90279414214BEEA6000B9824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90279415214BEEA6000B9824 /* Build configuration list for PBXNativeTarget "GardenLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90279416214BEEA6000B9824 /* Debug */,
+				90279417214BEEA6000B9824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902793DD214BEE2D000B9824 /* Project object */;
+}
